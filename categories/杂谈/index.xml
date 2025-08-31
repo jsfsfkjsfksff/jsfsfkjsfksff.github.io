@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>杂谈 on My New Hugo Site</title>
+    <link>http://localhost:1313/categories/%E6%9D%82%E8%B0%88/</link>
+    <description>Recent content from My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    
+    <managingEditor>xxx@example.com (D-Sketon)</managingEditor>
+    <webMaster>xxx@example.com (D-Sketon)</webMaster>
+    
+    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
+    
+    <lastBuildDate>Wed, 15 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+    
+    <atom:link href="http://localhost:1313/categories/%E6%9D%82%E8%B0%88/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>我第三个帖子</title>
+      <link>http://localhost:1313/post/my-third-post/</link>
+      <pubDate>Wed, 15 Mar 2023 00:00:00 &#43;0000</pubDate>
+      <author>xxx@example.com (D-Sketon)</author>
+      <guid>http://localhost:1313/post/my-third-post/</guid>
+      <description>
+        <![CDATA[<h1>我第三个帖子</h1><p>Author: D-Sketon(xxx@example.com)</p>
+        
+          <p>#我第三个帖子
+<img src="/images/bit.png" alt="galgame" width = 300>
+<a href="https://en.wikipedia.org/wiki/16bit_Sensation">
+这是一个关于galgame的制作史。</a></p>
+        
+        <hr><p>Published on 2023-03-15 at <a href='http://localhost:1313/'>My New Hugo Site</a>, last modified on 2023-03-15</p>]]>
+      </description>
+      
+        <category>杂谈</category>
+      
+    </item>
+    
+  </channel>
+</rss>
