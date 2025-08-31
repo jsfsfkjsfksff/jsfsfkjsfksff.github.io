@@ -5,11 +5,31 @@
     <loc>https://example.org/</loc>
     <lastmod>2025-08-31T15:39:38+08:00</lastmod>
   </url><url>
+    <loc>https://example.org/post/my-second-post/</loc>
+    <lastmod>2025-08-31T15:39:38+08:00</lastmod>
+  </url><url>
     <loc>https://example.org/post/</loc>
     <lastmod>2025-08-31T15:39:38+08:00</lastmod>
   </url><url>
+    <loc>https://example.org/post/my-forth-post/</loc>
+    <lastmod>2025-08-31T15:27:12+08:00</lastmod>
+  </url><url>
+    <loc>https://example.org/post/my-first-post/</loc>
+    <lastmod>2025-08-31T15:27:12+08:00</lastmod>
+  </url><url>
     <loc>https://example.org/categories/</loc>
+    <lastmod>2023-03-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/tags/</loc>
+    <lastmod>2023-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.org/tags/%E4%BA%8C%E6%AC%A1%E5%85%83/</loc>
+    <lastmod>2023-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.org/post/my-third-post/</loc>
+    <lastmod>2023-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.org/categories/%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2023-03-15T00:00:00+00:00</lastmod>
   </url>
 </urlset>
