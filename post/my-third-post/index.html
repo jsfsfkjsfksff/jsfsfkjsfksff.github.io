@@ -986,7 +986,7 @@ This article does not have a corresponding language version
       const ap = new APlayer({
           theme: "var(--color-link)",
           container: document.getElementById('aplayer'),
-          audio: JSON.parse("[\"/audios/background.mp3\"]") || [],
+          audio: JSON.parse("[{\"artist\":\"w\",\"name\":\"background.a\",\"url\":\"/audios/background.a.mp3\"},{\"artist\":\"w\",\"name\":\"background.b\",\"url\":\"/audios/background.b.mp3\"}]") || [],
           fixed: isMobile ? true : ( true  || false),
           autoplay:  true  || false,
           loop: 'all' || 'all',
