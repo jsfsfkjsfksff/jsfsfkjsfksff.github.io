@@ -293,6 +293,18 @@ This article does not have a corresponding language version
 <div class="comment-content"><div class="comment valine-comment" data-aos="fade-up"
      >
     </div></div>
+</section><section id="comments" data-aos="fade-up">
+<div class="comment-header"><h2 class="comment-title">Leave a comment</h2>
+  <div class="comment-selector">
+    <div class="comment-selector-wrap"><div class="selector-item" data-selector="valine">
+          <span>valine</span>
+        </div></div>
+  </div>
+</div>
+
+<div class="comment-content"><div class="comment valine-comment" data-aos="fade-up"
+     >
+    </div></div>
 </section></section>
         </div><footer id="footer">
   <div style="width: 100%; overflow: hidden">
@@ -814,45 +826,5 @@ This article does not have a corresponding language version
     "color: white; background: #ff5252; padding:5px 0;",
     "padding:4px;border:1px solid #ff5252;",
   );
-</script><audio id="site-bgm" autoplay loop muted>
-  <source src="/audios/background.mp3" type="audio/mpeg">
-</audio>
-
-<button id="bgm-play-btn"
-  style="
-    position: fixed;
-    left: 20px;
-    top: 20px;
-    z-index: 9999;
-    background: rgba(0,0,0,0.8);
-    color: #fff;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 14px;
-  "
->
-  ▶ 播放音乐
-</button>
-
-<script>
-const audio = document.getElementById('site-bgm');
-const btn = document.getElementById('bgm-play-btn');
-
-
-document.addEventListener('DOMContentLoaded', () => {
-  audio.muted = true;
-  audio.play().catch(()=>{}); 
-});
-
-
-btn.onclick = () => {
-  audio.muted = false;
-  audio.play().catch(()=>{});
-  btn.style.display = 'none';
-};
-</script>
-
-  </body>
+</script></body>
 </html>
