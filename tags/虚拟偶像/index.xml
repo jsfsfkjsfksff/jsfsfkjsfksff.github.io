@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>NeonNotes Journal</title>
-    <link>https://example.org/</link>
+    <title>虚拟偶像 on NeonNotes Journal</title>
+    <link>https://example.org/tags/%E8%99%9A%E6%8B%9F%E5%81%B6%E5%83%8F/</link>
     <description>Recent content from NeonNotes Journal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
     
     
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://example.org/tags/%E8%99%9A%E6%8B%9F%E5%81%B6%E5%83%8F/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -72,120 +72,6 @@ AI与番剧
         
         <hr><p>Published on 2025-09-01 at <a href='https://example.org/'>NeonNotes Journal</a>, last modified on 2025-09-01</p>]]>
       </description>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>My Second Post</title>
-      <link>https://example.org/post/my-second-post/</link>
-      <pubDate>Sun, 31 Aug 2025 15:39:38 &#43;0800</pubDate>
-      <author>3824492861@qq.com (D-Sketon)</author>
-      <guid>https://example.org/post/my-second-post/</guid>
-      <description>
-        <![CDATA[<h1>My Second Post</h1><p>Author: D-Sketon(3824492861@qq.com)</p>
-        
-          <h1 id="welcome-to-our-club">
-<a class="header-anchor" href="#welcome-to-our-club"></a>
-Welcome to our club!
-</h1><img src="/images/aili.png" alt="艾莉同学" width = 300>
-<a href = "https://zh.wikipedia.org/zh-hans/%E4%B8%8D%E6%99%82%E8%BC%95%E8%81%B2%E5%9C%B0%E4%BB%A5%E4%BF%84%E8%AA%9E%E9%81%AE%E7%BE%9E%E7%9A%84%E9%84%B0%E5%BA%A7%E8%89%BE%E8%8E%89%E5%90%8C%E5%AD%B8">
-我是艾莉，我是一个非常有趣的人。
-</a>
-## 我是艾莉
-<p>我是一个非常有趣的人。<br>
-我喜欢和人在一起。<br>
-我喜欢和人在一起。               <br>
-我喜欢和人在一起。</p>
-        
-        <hr><p>Published on 2025-08-31 at <a href='https://example.org/'>NeonNotes Journal</a>, last modified on 2025-08-31</p>]]>
-      </description>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>My First Post</title>
-      <link>https://example.org/post/my-first-post/</link>
-      <pubDate>Sun, 31 Aug 2025 15:27:12 &#43;0800</pubDate>
-      <author>3824492861@qq.com (D-Sketon)</author>
-      <guid>https://example.org/post/my-first-post/</guid>
-      <description>
-        <![CDATA[<h1>My First Post</h1><p>Author: D-Sketon(3824492861@qq.com)</p>
-        
-          <p>#简介</p>
-<p>这是**粗体**文本，这是*斜体*文本。</p>
-<a href = "https://www.pixiv.net/">
-The door to ACG</a>
-## 请注意**EVA**的活动！！！
-        
-        <hr><p>Published on 2025-08-31 at <a href='https://example.org/'>NeonNotes Journal</a>, last modified on 2025-08-31</p>]]>
-      </description>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>Galgame计划</title>
-      <link>https://example.org/post/my-forth-post/</link>
-      <pubDate>Sun, 31 Aug 2025 15:27:12 &#43;0800</pubDate>
-      <author>3824492861@qq.com (D-Sketon)</author>
-      <guid>https://example.org/post/my-forth-post/</guid>
-      <description>
-        <![CDATA[<h1>Galgame计划</h1><p>Author: D-Sketon(3824492861@qq.com)</p>
-        
-          <h1 id="计划">
-<a class="header-anchor" href="#%e8%ae%a1%e5%88%92"></a>
-计划
-</h1><h2 id="1剧本">
-<a class="header-anchor" href="#1%e5%89%a7%e6%9c%ac"></a>
-1.剧本
-</h2><p>改编</p>
-<h2 id="2图稿">
-<a class="header-anchor" href="#2%e5%9b%be%e7%a8%bf"></a>
-2.图稿
-</h2><a href = "https://www.pixiv.net/">
-Pixiv爬取</a>
-<h2 id="3音乐">
-<a class="header-anchor" href="#3%e9%9f%b3%e4%b9%90"></a>
-3.音乐
-</h2><a href = "https://music.163.com/">
-网易云音乐</a>
-<h2 id="4配音">
-<a class="header-anchor" href="#4%e9%85%8d%e9%9f%b3"></a>
-4.配音
-</h2><a href = "https://www.ttson.cn/">
-配音
-</a>
-        
-        <hr><p>Published on 2025-08-31 at <a href='https://example.org/'>NeonNotes Journal</a>, last modified on 2025-08-31</p>]]>
-      </description>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>我第三个帖子</title>
-      <link>https://example.org/post/my-third-post/</link>
-      <pubDate>Wed, 15 Mar 2023 00:00:00 &#43;0000</pubDate>
-      <author>3824492861@qq.com (D-Sketon)</author>
-      <guid>https://example.org/post/my-third-post/</guid>
-      <description>
-        <![CDATA[<h1>我第三个帖子</h1><p>Author: D-Sketon(3824492861@qq.com)</p>
-        
-          <p>#我第三个帖子
-<img src="/images/bit.png" alt="galgame" width = 300>
-<a href="https://en.wikipedia.org/wiki/16bit_Sensation">
-这是一个关于galgame的制作史。</a></p>
-        
-        <hr><p>Published on 2023-03-15 at <a href='https://example.org/'>NeonNotes Journal</a>, last modified on 2023-03-15</p>]]>
-      </description>
-      
-        <category>杂谈</category>
       
     </item>
     
