@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>二次元 on My New Hugo Site</title>
+    <title>二次元 on NeonNotes Journal</title>
     <link>https://example.org/tags/%E4%BA%8C%E6%AC%A1%E5%85%83/</link>
-    <description>Recent content from My New Hugo Site</description>
+    <description>Recent content from NeonNotes Journal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     
@@ -35,7 +35,7 @@
 <a href="https://en.wikipedia.org/wiki/16bit_Sensation">
 这是一个关于galgame的制作史。</a></p>
         
-        <hr><p>Published on 2023-03-15 at <a href='https://example.org/'>My New Hugo Site</a>, last modified on 2023-03-15</p>]]>
+        <hr><p>Published on 2023-03-15 at <a href='https://example.org/'>NeonNotes Journal</a>, last modified on 2023-03-15</p>]]>
       </description>
       
         <category>杂谈</category>
