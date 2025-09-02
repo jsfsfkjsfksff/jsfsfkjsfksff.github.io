@@ -12,6 +12,8 @@
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
+    <lastBuildDate>Tue, 02 Sep 2025 00:00:00 +0000</lastBuildDate>
+    
     
     <atom:link href="https://example.org/tags/%E8%81%8A%E5%A4%A9%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss&#43;xml" />
     
@@ -22,7 +24,7 @@
     <item>
       <title>关于桌面聊天系统的设计与实现</title>
       <link>https://example.org/post/my-sixth-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 &#43;0000</pubDate>
       <author>3824492861@qq.com (D-Sketon)</author>
       <guid>https://example.org/post/my-sixth-post/</guid>
       <description>
@@ -43,8 +45,31 @@
 <a class="header-anchor" href="#%e4%b8%aa%e4%ba%ba%e8%81%8a%e5%a4%a9"></a>
 个人聊天
 </h2><p>一对一聊天</p>
+<h2 id="功能">
+<a class="header-anchor" href="#%e5%8a%9f%e8%83%bd"></a>
+功能
+</h2><ul>
+<li>注册登录</li>
+<li>好友列表</li>
+<li>好友请求</li>
+<li>好友添加</li>
+<li>好友删除</li>
+<li>好友聊天</li>
+<li>好友文件传输</li>
+<li>好友语音传输</li>
+<li>好友视频传输</li>
+<li>好友图片传输</li>
+<li>好友位置传输</li>
+<li>好友状态传输</li>
+<li>好友群聊</li>
+<li>好友群聊文件传输</li>
+<li>好友群聊语音传输</li>
+<li>好友群聊视频传输</li>
+<li>好友群聊图片传输</li>
+<li>好友群聊位置传输</li>
+</ul>
         
-        <hr><p>Published on 0001-01-01 at <a href='https://example.org/'>NeonNotes Journal</a>, last modified on 0001-01-01</p>]]>
+        <hr><p>Published on 2025-09-02 at <a href='https://example.org/'>NeonNotes Journal</a>, last modified on 2025-09-02</p>]]>
       </description>
       
     </item>
