@@ -12,7 +12,7 @@
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
-    <lastBuildDate>Tue, 02 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Sep 2025 22:30:30 +0800</lastBuildDate>
     
     
     <atom:link href="https://example.org/tags/%E8%AE%A1%E5%88%92/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -24,7 +24,7 @@
     <item>
       <title>关于桌面聊天系统的设计与实现</title>
       <link>https://example.org/post/my-sixth-post/</link>
-      <pubDate>Tue, 02 Sep 2025 00:00:00 &#43;0000</pubDate>
+      <pubDate>Tue, 02 Sep 2025 22:30:30 &#43;0800</pubDate>
       <author>3824492861@qq.com (D-Sketon)</author>
       <guid>https://example.org/post/my-sixth-post/</guid>
       <description>
