@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>聊天软件 on NeonNotes Journal</title>
-    <link>https://example.org/tags/%E8%81%8A%E5%A4%A9%E8%BD%AF%E4%BB%B6/</link>
+    <link>https://jsfsfkjsfksff.github.io/tags/%E8%81%8A%E5%A4%A9%E8%BD%AF%E4%BB%B6/</link>
     <description>Recent content from NeonNotes Journal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Tue, 02 Sep 2025 22:30:30 +0800</lastBuildDate>
     
     
-    <atom:link href="https://example.org/tags/%E8%81%8A%E5%A4%A9%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://jsfsfkjsfksff.github.io/tags/%E8%81%8A%E5%A4%A9%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,10 +23,10 @@
 
     <item>
       <title>关于桌面聊天系统的设计与实现</title>
-      <link>https://example.org/post/my-sixth-post/</link>
+      <link>https://jsfsfkjsfksff.github.io/2025/09/%E5%85%B3%E4%BA%8E%E6%A1%8C%E9%9D%A2%E8%81%8A%E5%A4%A9%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0/</link>
       <pubDate>Tue, 02 Sep 2025 22:30:30 &#43;0800</pubDate>
       <author>3824492861@qq.com (Home)</author>
-      <guid>https://example.org/post/my-sixth-post/</guid>
+      <guid>https://jsfsfkjsfksff.github.io/2025/09/%E5%85%B3%E4%BA%8E%E6%A1%8C%E9%9D%A2%E8%81%8A%E5%A4%A9%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0/</guid>
       <description>
         <![CDATA[<h1>关于桌面聊天系统的设计与实现</h1><p>Author: Home(3824492861@qq.com)</p>
         
@@ -69,7 +69,7 @@
 <li>好友群聊位置传输</li>
 </ul>
         
-        <hr><p>Published on 2025-09-02 at <a href='https://example.org/'>NeonNotes Journal</a>, last modified on 2025-09-02</p>]]>
+        <hr><p>Published on 2025-09-02 at <a href='https://jsfsfkjsfksff.github.io/'>NeonNotes Journal</a>, last modified on 2025-09-02</p>]]>
       </description>
       
     </item>
