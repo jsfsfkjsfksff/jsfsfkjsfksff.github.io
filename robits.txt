@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://jsfsfkjsfksff.github.io/jsfsfkjsfksff.github.io/sitemap.xml
