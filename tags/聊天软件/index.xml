@@ -7,8 +7,8 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     
-    <managingEditor>3824492861@qq.com (D-Sketon)</managingEditor>
-    <webMaster>3824492861@qq.com (D-Sketon)</webMaster>
+    <managingEditor>3824492861@qq.com (Home)</managingEditor>
+    <webMaster>3824492861@qq.com (Home)</webMaster>
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
@@ -25,10 +25,10 @@
       <title>关于桌面聊天系统的设计与实现</title>
       <link>https://example.org/post/my-sixth-post/</link>
       <pubDate>Tue, 02 Sep 2025 22:30:30 &#43;0800</pubDate>
-      <author>3824492861@qq.com (D-Sketon)</author>
+      <author>3824492861@qq.com (Home)</author>
       <guid>https://example.org/post/my-sixth-post/</guid>
       <description>
-        <![CDATA[<h1>关于桌面聊天系统的设计与实现</h1><p>Author: D-Sketon(3824492861@qq.com)</p>
+        <![CDATA[<h1>关于桌面聊天系统的设计与实现</h1><p>Author: Home(3824492861@qq.com)</p>
         
           <h1 id="关于简单的java的端到端的聊天系统">
 <a class="header-anchor" href="#%e5%85%b3%e4%ba%8e%e7%ae%80%e5%8d%95%e7%9a%84java%e7%9a%84%e7%ab%af%e5%88%b0%e7%ab%af%e7%9a%84%e8%81%8a%e5%a4%a9%e7%b3%bb%e7%bb%9f"></a>
