@@ -30,9 +30,9 @@
       <description>
         <![CDATA[<h1>关于桌面聊天系统的设计与实现</h1><p>Author: Home(3824492861@qq.com)</p>
         
-          <h1 id="关于简单的java的端到端的聊天系统">
-<a class="header-anchor" href="#%e5%85%b3%e4%ba%8e%e7%ae%80%e5%8d%95%e7%9a%84java%e7%9a%84%e7%ab%af%e5%88%b0%e7%ab%af%e7%9a%84%e8%81%8a%e5%a4%a9%e7%b3%bb%e7%bb%9f"></a>
-关于简单的Java的端到端的聊天系统
+          <h1 id="提出一个关于实时对话的模拟关系的聊天系统">
+<a class="header-anchor" href="#%e6%8f%90%e5%87%ba%e4%b8%80%e4%b8%aa%e5%85%b3%e4%ba%8e%e5%ae%9e%e6%97%b6%e5%af%b9%e8%af%9d%e7%9a%84%e6%a8%a1%e6%8b%9f%e5%85%b3%e7%b3%bb%e7%9a%84%e8%81%8a%e5%a4%a9%e7%b3%bb%e7%bb%9f"></a>
+提出一个关于实时对话的模拟关系的聊天系统
 </h1><p>计划实现基于Java的聊天软件，可实现文件传输等附属功能。后期实现独立加密防监听,代替微信实现轻量化的使用。</p>
 <h1 id="项目介绍">
 <a class="header-anchor" href="#%e9%a1%b9%e7%9b%ae%e4%bb%8b%e7%bb%8d"></a>
@@ -58,7 +58,8 @@
 <li>好友位置传输</li>
 <li>好友状态传输</li>
 <li>好友群聊</li>
-<li>好友群聊位置传输</li>
+<li>好友群聊位置传输
+<img src = "/images/idea1.jpg" alt = "idea1" width = 300></li>
 </ul>
         
         <hr><p>Published on 2025-09-02 at <a href='https://jsfsfkjsfksff.github.io/'>NeonNotes Journal</a>, last modified on 2025-09-02</p>]]>
