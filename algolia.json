@@ -1,8 +1,14 @@
 [
   {
+    "objectID": "e906c61afd76f48cc6d251e9be0c5793794970aa",
+    "permalink": "/2025/10/hello-debug/",
+    "title": "hello debug","content": "\rhello debug\rupdatetime\rsearch in website\r","date": "2025-10-07 18:00:00",
+    "updated": "2025-10-07 18:00:00"
+  }, 
+  {
     "objectID": "9beaa3a025504cb923fa721d3bdd9b0d6882fb72",
     "permalink": "/2025/10/live2d%E7%9A%84%E5%BA%94%E7%94%A8/",
-    "title": "live2d的应用","content": "\rlive2d在前端的应用\r1.live2d for web sdk 2.pixi.js //引入pdf import pdf from \u0026ldquo;/pdfs/基于Live2D+Mlkit的社交软件的设计与实现.pdf\u0026rdquo; 后续发展\r1.拓展为聊天软件的插件 2.为后续unity做铺垫\n","date": "2025-10-07 18:00:00",
+    "title": "live2d的应用","content": "// 给 embed 添加居中样式\nlive2d在前端的应用\r1.live2d for web sdk\n2.pixi.js\n//居中显示\n前往体验live2d\r后续发展\r1.拓展为聊天软件的插件\n2.为后续unity做铺垫\n","date": "2025-10-07 18:00:00",
     "updated": "2025-10-07 18:00:00"
   }, 
   {
@@ -10,12 +16,6 @@
     "permalink": "/2025/09/%E5%85%B3%E4%BA%8E%E7%9B%B8%E5%AF%B9%E8%AE%BA%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9/",
     "title": "关于相对论的计算机辅助","content": "\r前瞻\r本贴会辅助计算机开源引擎来实现基础的狭义相对论的学习。\n","date": "2025-09-13 23:50:30",
     "updated": "2025-09-13 23:50:30"
-  }, 
-  {
-    "objectID": "9408f5111132393f7831a86cc945804d597249ed",
-    "permalink": "/2025/09/",
-    "title": "","content": "\rhello debug\rupdate error\r","date": "2025-09-12 22:30:30",
-    "updated": "2025-09-12 22:30:30"
   }, 
   {
     "objectID": "ebf722a4c618a98b45073eb4fec73529c6b36cd1",

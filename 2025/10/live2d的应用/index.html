@@ -194,7 +194,7 @@ This article does not have a corresponding language version
   </a>
   <a class="sidebar-state-tag" href="/tags/" aria-label="sidebar-state-tag-link">
     <div>Tags</div>
-    <div class="sidebar-state-number">16</div>
+    <div class="sidebar-state-number">17</div>
   </a>
 </div>
 <div class="sidebar-social"></div>
@@ -289,18 +289,35 @@ This article does not have a corresponding language version
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h1 id="live2d在前端的应用">
+        <p>// 给 embed 添加居中样式</p>
+<style>.pdf-center {
+    display: block;
+    margin: 0 auto;
+}
+</style>
+<h1 id="live2d在前端的应用">
 <a class="header-anchor" href="#live2d%e5%9c%a8%e5%89%8d%e7%ab%af%e7%9a%84%e5%ba%94%e7%94%a8"></a>
 live2d在前端的应用
-</h1><p>1.live2d for web sdk
-2.pixi.js
-//引入pdf
-import pdf from &ldquo;/pdfs/基于Live2D+Mlkit的社交软件的设计与实现.pdf&rdquo;
+</h1><p>1.live2d for web sdk<br>
+2.pixi.js</p>
+<!-- <object data = "/pdfs/基于Live2D+Mlkit的社交软件的设计与实现.pdf" type="application/pdf" width="600" height="400">
+    <p>浏览器不支持 PDF 查看，请 <a href="/pdfs/基于Live2D+Mlkit的社交软件的设计与实现.pdf">点击下载</a></p>
+</object> -->
+<p>//居中显示</p>
+<!-- 给 embed 添加 class -->
+<p><embed class="pdf-center" 
+src="/pdfs/基于Live2D+Mlkit的社交软件的设计与实现.pdf" 
+type="application/pdf" 
+width="600" 
+height="400">
 <img src = "/images/live2d.png" alt = "live2d展示图" width = 300></p>
+<div style = "text-align: center;">
+   <a href = "https://stackblitz.com/~/github.com/Panzer-Jack/easy-live2d-playground?file=src/App.vue">前往体验live2d</a>
+</div>
 <h1 id="后续发展">
 <a class="header-anchor" href="#%e5%90%8e%e7%bb%ad%e5%8f%91%e5%b1%95"></a>
 后续发展
-</h1><p>1.拓展为聊天软件的插件
+</h1><p>1.拓展为聊天软件的插件<br>
 2.为后续unity做铺垫</p>
 </div>
     
@@ -364,6 +381,14 @@ import pdf from &ldquo;/pdfs/基于Live2D+Mlkit的社交软件的设计与实现
           /><a href="/2025/09/%E5%85%B3%E4%BA%8E%E7%9B%B8%E5%AF%B9%E8%AE%BA%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9/"></a>
         <div class="article-nav-caption">Prev</div>
         <h3 class="article-nav-title">关于相对论的计算机辅助</h3>
+      </div><div class="article-nav-link-wrap article-nav-link-right"><img
+              data-src="%3cimg%20src=%22/images/fly.gif%22%20alt=%22fly%22%20/%3e"
+              data-sizes="auto"
+              alt="hello debug"
+              class="lazyload"
+            /><a href="/2025/10/hello-debug/"></a>
+        <div class="article-nav-caption">Next</div>
+        <h3 class="article-nav-title">hello debug</h3>
       </div></nav></article>
 
 <section id="comments" data-aos="fade-up">
@@ -410,7 +435,7 @@ import pdf from &ldquo;/pdfs/基于Live2D+Mlkit的社交软件的设计与实现
         >
       </div><div>
         <span class="icon-brush"
-          >&nbsp;98</span
+          >&nbsp;101</span
         >
         &nbsp;|&nbsp;
         <span class="icon-coffee">&nbsp;00:09</span>
@@ -465,7 +490,7 @@ import pdf from &ldquo;/pdfs/基于Live2D+Mlkit的社交软件的设计与实现
   </a>
   <a class="sidebar-state-tag" href="/tags/" aria-label="sidebar-state-tag-link">
     <div>Tags</div>
-    <div class="sidebar-state-number">16</div>
+    <div class="sidebar-state-number">17</div>
   </a>
 </div>
 <div class="sidebar-social"></div>
