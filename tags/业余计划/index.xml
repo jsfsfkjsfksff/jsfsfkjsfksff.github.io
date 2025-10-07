@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>业余计划 on NeonNotes Journal</title>
+    <link>https://jsfsfkjsfksff.github.io/tags/%E4%B8%9A%E4%BD%99%E8%AE%A1%E5%88%92/</link>
+    <description>Recent content from NeonNotes Journal</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    
+    <managingEditor>3824492861@qq.com (Home)</managingEditor>
+    <webMaster>3824492861@qq.com (Home)</webMaster>
+    
+    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
+    
+    <lastBuildDate>Tue, 07 Oct 2025 18:00:00 +0800</lastBuildDate>
+    
+    
+    <atom:link href="https://jsfsfkjsfksff.github.io/tags/%E4%B8%9A%E4%BD%99%E8%AE%A1%E5%88%92/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>live2d的应用</title>
+      <link>https://jsfsfkjsfksff.github.io/2025/10/live2d%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+      <pubDate>Tue, 07 Oct 2025 18:00:00 &#43;0800</pubDate>
+      <author>3824492861@qq.com (Home)</author>
+      <guid>https://jsfsfkjsfksff.github.io/2025/10/live2d%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+      <description>
+        <![CDATA[<h1>live2d的应用</h1><p>Author: Home(3824492861@qq.com)</p>
+        
+          <h1 id="live2d在前端的应用">
+<a class="header-anchor" href="#live2d%e5%9c%a8%e5%89%8d%e7%ab%af%e7%9a%84%e5%ba%94%e7%94%a8"></a>
+live2d在前端的应用
+</h1><p>1.live2d for web sdk
+2.pixi.js
+//引入pdf
+import pdf from &ldquo;/pdfs/基于Live2D+Mlkit的社交软件的设计与实现.pdf&rdquo;
+<img src = "/images/live2d.png" alt = "live2d展示图" width = 300></p>
+<h1 id="后续发展">
+<a class="header-anchor" href="#%e5%90%8e%e7%bb%ad%e5%8f%91%e5%b1%95"></a>
+后续发展
+</h1><p>1.拓展为聊天软件的插件
+2.为后续unity做铺垫</p>
+        
+        <hr><p>Published on 2025-10-07 at <a href='https://jsfsfkjsfksff.github.io/'>NeonNotes Journal</a>, last modified on 2025-10-07</p>]]>
+      </description>
+      
+    </item>
+    
+  </channel>
+</rss>
