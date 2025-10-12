@@ -5,7 +5,6 @@
   >
   <head>
 	<meta name="generator" content="Hugo 0.149.0"><meta charset="utf-8" />
-<meta name="google-site-verification" content="MTEBwk5zAlP-2Wvwa2TGi81ExztM7aQf_3NPJoklWCM" />
 <meta
   name="viewport"
   content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -15,30 +14,7 @@
 <meta
   name="description"
   content="少女祈祷中..."
-/><script async src="https://hm.baidu.com/hm.js?true"></script>
-<script data-pjax>
-  var _hmt = _hmt || [];
-  _hmt.push(["_trackPageview", location.pathname]);
-</script><script>
-  (function(c,l,a,r,i,t,y){
-      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-  })(window, document, "clarity", "script", "true");
-</script>
-<script src="https://www.googletagmanager.com/gtag/js?id=true"></script>
-<script data-pjax>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-
-  gtag('js', new Date());
-
-  gtag('config', 'true');
-</script>
-<script>
+/><script>
   window.siteConfig = JSON.parse("{\"anchor_icon\":null,\"base\":\"https://jsfsfkjsfksff.github.io/\",\"clipboard\":{\"copyright\":{\"count\":50,\"enable\":false,\"license_type\":\"by-nc-sa\"},\"fail\":{\"en\":\"Copy failed (ﾟ⊿ﾟ)ﾂ\",\"ja\":\"コピー失敗 (ﾟ⊿ﾟ)ﾂ\",\"pt-br\":\"Falha ao copiar (ﾟ⊿ﾟ)ﾂ\",\"zh-cn\":\"复制失败 (ﾟ⊿ﾟ)ﾂ\",\"zh-tw\":\"複製失敗 (ﾟ⊿ﾟ)ﾂ\"},\"success\":{\"en\":\"Copy successfully (*^▽^*)\",\"ja\":\"コピー成功 (*^▽^*)\",\"pt-br\":\"Copiado com sucesso (*^▽^*)\",\"zh-cn\":\"复制成功 (*^▽^*)\",\"zh-tw\":\"複製成功 (*^▽^*)\"}},\"code_block\":{\"expand\":true},\"icon_font\":\"4552607_4k4bc36ef96\",\"outdate\":{\"daysago\":180,\"enable\":false,\"message\":{\"en\":\"This article was last updated on {time}. Please note that the content may no longer be applicable.\",\"ja\":\"この記事は最終更新日：{time}。記載内容が現在有効でない可能性がありますのでご注意ください。\",\"pt-br\":\"Este artigo foi atualizado pela última vez em {time}. Observe que o conteúdo pode não ser mais aplicável.\",\"zh-cn\":\"本文最后更新于 {time}，请注意文中内容可能已不适用。\",\"zh-tw\":\"本文最後更新於 {time}，請注意文中內容可能已不適用。\"}}}");
   
 </script>
@@ -76,11 +52,11 @@
     property="og:image"
     content="/"
   />
-  <meta property="article:author" content="Home" />
+  <meta property="article:author" content="home" />
   <meta property="article:published_time" content="2025-10-07T18:00:00&#43;08:00" />
   <meta property="article:modified_time" content="2025-10-07T18:00:00&#43;08:00" /><meta name="twitter:card" content="summary" />
   <meta name="twitter:image" content="/" /><link rel="alternate" type="application/rss+xml" href="https://jsfsfkjsfksff.github.io/index.xml" title="NeonNotes Journal">
-<link rel="shortcut icon" href="/images/avatar.png"><link rel="stylesheet" href="/css/main.min.6f8910ebed37d7615981868c9bb55358105e7a728907d764b352d0ed918782a8.css" />
+<link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.min.d5d24498d5bab2035af32b2053ac4aa23c6d1152085d1b7d76df830bae624667.css" />
 <link
     rel="preload"
     as="style"
@@ -114,19 +90,23 @@
   </div>
   <script>
     var time = null;
+    var loaderEl = document.getElementById('loader');
     var startLoading = () => {
       time = Date.now();
-      document.getElementById('loader').classList.remove("loading");
+      loaderEl.classList.remove("loading");
     }
+    var hideLoader = () => {
+      document.body.style.overflow = 'auto';
+      loader.classList.add('loading');
+    };
+
     var endLoading = () => {
       if (!time) {
-        document.body.style.overflow = 'auto';
-        document.getElementById('loader').classList.add("loading");
+        hideLoader();
       } else {
         if (Date.now() - time > 500) {
           time = null;
-          document.body.style.overflow = 'auto';
-          document.getElementById('loader').classList.add("loading");
+          hideLoader();
         } else {
           setTimeout(endLoading, 500 - (Date.now() - time));
           time = null;
@@ -134,15 +114,14 @@
       }
     }
     window.addEventListener('DOMContentLoaded', endLoading);
-    document.getElementById('loader').addEventListener('click', endLoading);
-  </script><div id="copy-tooltip" style="pointer-events: none; opacity: 0; transition: all 0.2s ease; position: fixed;top: 50%;left: 50%;z-index: 999;transform: translate(-50%, -50%);color: white;background: rgba(0, 0, 0, 0.5);padding: 10px 15px;border-radius: 10px;">
-</div>
-<div id="lang-tooltip" style="pointer-events: none; opacity: 0; transition: all 0.2s ease; position: fixed;top: 50%;left: 50%;z-index: 999;transform: translate(-50%, -50%);color: white;background: rgba(0, 0, 0, 0.5);padding: 10px 15px;border-radius: 10px;">
+    loaderEl.addEventListener('click', endLoading);
+  </script><div id="copy-tooltip"></div>
+<div id="lang-tooltip">
 This article does not have a corresponding language version
 </div>
 <div id="heatmap-tooltip"></div><div id="container">
       <div id="wrap"><div id="header-nav">
-  <nav id="main-nav"><span class="main-nav-link-wrap">
+  <nav id="main-nav" aria-label="Primary navigation"><span class="main-nav-link-wrap">
         <div class='main-nav-icon icon rotate'>&#xe62b;</div>
         <a class="main-nav-link" href="/">Home</a>
       </span><span class="main-nav-link-wrap">
@@ -154,17 +133,18 @@ This article does not have a corresponding language version
       </span><span class="main-nav-link-wrap">
         <div class='main-nav-icon icon rotate'>&#xe62b;</div>
         <a class="main-nav-link" href="/friend">Friend</a>
-      </span><a id="main-nav-toggle" class="nav-icon"></a>
+      </span><a id="main-nav-toggle" class="nav-icon" aria-label="Toggle navigation" role="button"></a>
   </nav>
-  <nav id="sub-nav"><a id="nav-rss-link" class="nav-icon" href="/index.xml" title="RSS Feed" target="_blank"></a><a id="nav-search-btn" class="nav-icon popup-trigger" title="Search"></a></nav></div>
-<header id="header"><picture></picture><img  fetchpriority="high" src="/images/banner.webp" alt="NeonNotes Journal"><div id="header-outer">
+  <nav id="sub-nav" aria-label="Secondary navigation"><a id="nav-rss-link" class="nav-icon" href="/index.xml" title="RSS Feed" aria-label="RSS Feed" target="_blank"></a><a id="nav-search-btn" class="nav-icon popup-trigger" title="Search" aria-label="Search"></a></nav></div>
+<header id="header" aria-label="Site header"><picture></picture><img  fetchpriority="high" src="/images/banner.webp" alt="NeonNotes Journal"><div id="header-outer">
     <div id="header-title"><span id="logo">
             <h1 data-aos="slide-up">NeonNotes Journal</h1>
           </span><h2 id="subtitle-wrap" data-aos="slide-down"><span id="subtitle">少女祈祷中...</span></h2></div>
   </div>
 </header><div id="content"
+          aria-label="Page content"
           
-          class="sidebar-right"  ><aside id="sidebar"><div class="sidebar-wrapper-container "><div class="sidebar-wrapper">
+          class="sidebar-right"  ><aside id="sidebar" aria-label="Sidebar"><div class="sidebar-wrapper-container "><div class="sidebar-wrapper">
     <div
       class="sidebar-wrap"
       data-aos="fade-up"
@@ -172,10 +152,10 @@ This article does not have a corresponding language version
   <img
     data-src="/avatar/avatar.webp"
     data-sizes="auto"
-    alt="Home"
+    alt="home"
     class="lazyload"
   />
-  <div class="sidebar-author-name">Home</div>
+  <div class="sidebar-author-name">home</div>
   <div class="sidebar-description">少女祈祷中...</div>
 </div>
 <div class="sidebar-state">
@@ -237,7 +217,8 @@ This article does not have a corresponding language version
         <h3 class="widget-title">Categories</h3></div>
       <div class="widget">
         <ul class="category-list"><li class="category-list-item">
-                <a class="category-list-link" href="/categories/%E6%9D%82%E8%B0%88/"
+                <a class="category-list-link" href="/categories/%E6%9D%82%E8%B0%88/" 
+                  title="杂谈"
                   >杂谈</a
                 >
               </li></ul>
@@ -256,6 +237,7 @@ This article does not have a corresponding language version
                   class="tag-link"
                   href="/tags/debug/"
                   aria-label="Tag: Debug"
+                  title="Debug"
                 >
                   Debug
                 </a>
@@ -264,6 +246,7 @@ This article does not have a corresponding language version
                   class="tag-link"
                   href="/tags/javaprogram/"
                   aria-label="Tag: JavaProgram"
+                  title="JavaProgram"
                 >
                   JavaProgram
                 </a>
@@ -272,6 +255,7 @@ This article does not have a corresponding language version
                   class="tag-link"
                   href="/tags/js/"
                   aria-label="Tag: Js"
+                  title="Js"
                 >
                   Js
                 </a>
@@ -280,6 +264,7 @@ This article does not have a corresponding language version
                   class="tag-link"
                   href="/tags/live2d/"
                   aria-label="Tag: Live2d"
+                  title="Live2d"
                 >
                   Live2d
                 </a>
@@ -288,6 +273,7 @@ This article does not have a corresponding language version
                   class="tag-link"
                   href="/tags/%E4%B8%9A%E4%BD%99%E8%AE%A1%E5%88%92/"
                   aria-label="Tag: 业余计划"
+                  title="业余计划"
                 >
                   业余计划
                 </a>
@@ -296,6 +282,7 @@ This article does not have a corresponding language version
                   class="tag-link"
                   href="/tags/%E4%B8%BB%E8%A6%81%E8%AE%A1%E5%88%92/"
                   aria-label="Tag: 主要计划"
+                  title="主要计划"
                 >
                   主要计划
                 </a>
@@ -304,6 +291,7 @@ This article does not have a corresponding language version
                   class="tag-link"
                   href="/tags/%E4%BA%8C%E6%AC%A1%E5%85%83/"
                   aria-label="Tag: 二次元"
+                  title="二次元"
                 >
                   二次元
                 </a>
@@ -312,6 +300,7 @@ This article does not have a corresponding language version
                   class="tag-link"
                   href="/tags/%E5%89%8D%E7%AB%AF/"
                   aria-label="Tag: 前端"
+                  title="前端"
                 >
                   前端
                 </a>
@@ -320,6 +309,7 @@ This article does not have a corresponding language version
                   class="tag-link"
                   href="/tags/%E5%8D%9A%E5%AE%A2/"
                   aria-label="Tag: 博客"
+                  title="博客"
                 >
                   博客
                 </a>
@@ -328,6 +318,7 @@ This article does not have a corresponding language version
                   class="tag-link"
                   href="/tags/%E6%80%9D%E6%83%B3%E6%AD%A6%E5%99%A8/"
                   aria-label="Tag: 思想武器"
+                  title="思想武器"
                 >
                   思想武器
                 </a>
@@ -434,36 +425,37 @@ This article does not have a corresponding language version
       <h3 class="widget-title">Recent Posts</h3>
       <div class="widget">
         <ul><li>
-              <a href="/2025/10/hello-debug/">hello debug</a>
+              <a href="/2025/10/hello-debug/" title="hello debug">hello debug</a>
             </li><li>
-              <a href="/2025/10/live2d%E7%9A%84%E5%BA%94%E7%94%A8/">live2d的应用</a>
+              <a href="/2025/10/live2d%E7%9A%84%E5%BA%94%E7%94%A8/" title="live2d的应用">live2d的应用</a>
             </li><li>
-              <a href="/2025/09/%E5%85%B3%E4%BA%8E%E7%9B%B8%E5%AF%B9%E8%AE%BA%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9/">关于相对论的计算机辅助</a>
+              <a href="/2025/09/%E5%85%B3%E4%BA%8E%E7%9B%B8%E5%AF%B9%E8%AE%BA%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9/" title="关于相对论的计算机辅助">关于相对论的计算机辅助</a>
             </li><li>
-              <a href="/2025/09/%E5%85%B3%E4%BA%8E%E6%A1%8C%E9%9D%A2%E8%81%8A%E5%A4%A9%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0/">关于桌面聊天系统的设计与实现</a>
+              <a href="/2025/09/%E5%85%B3%E4%BA%8E%E6%A1%8C%E9%9D%A2%E8%81%8A%E5%A4%A9%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0/" title="关于桌面聊天系统的设计与实现">关于桌面聊天系统的设计与实现</a>
             </li><li>
-              <a href="/2025/09/%E8%AE%BA%E8%99%9A%E6%8B%9F%E5%81%B6%E5%83%8F%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%AE%A1%E5%88%92%E6%9A%82%E5%81%9C/">论虚拟偶像博客的计划(暂停)</a>
+              <a href="/2025/09/%E8%AE%BA%E8%99%9A%E6%8B%9F%E5%81%B6%E5%83%8F%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%AE%A1%E5%88%92%E6%9A%82%E5%81%9C/" title="论虚拟偶像博客的计划(暂停)">论虚拟偶像博客的计划(暂停)</a>
             </li></ul>
       </div>
     </div>
   </div></div></div></aside>
-<section id="main"><div class="post-wrapper">
+<section id="main" aria-label="Main content"><div class="post-wrapper">
   <div
     class="
-      post-wrap-left
+      post-wrap left
     "
     data-aos="fade-up"
   ><a
         class="post-link"
         href="/2025/10/hello-debug/"
         aria-label="hello debug"
+        title="hello debug"
       >
       </a><div
       class="
-        post-cover-left
+        post-cover left
       "
     ><img
-            data-src="%3cimg%20src=%22/images/cover2.jpg%22%20alt=%22cover2%22%20/%3e"
+            data-src="https://d-sketon.top/img/_backwebp/bg1.webp"
             data-sizes="auto"
             alt="hello debug"
             class="lazyload"
@@ -474,9 +466,6 @@ This article does not have a corresponding language version
           ><span class="icon-calendar"></span
           >2025-10-07</span
         ><span
-            ><span class="icon-calendar-plus"></span
-            >2025-10-07</span
-          ><span
           ><span class="icon-pencil"></span
           >6 words</span
         >
@@ -493,17 +482,18 @@ This article does not have a corresponding language version
 <div class="post-wrapper">
   <div
     class="
-      post-wrap-right
+      post-wrap right
     "
     data-aos="fade-up"
   ><a
         class="post-link"
         href="/2025/10/live2d%E7%9A%84%E5%BA%94%E7%94%A8/"
         aria-label="live2d的应用"
+        title="live2d的应用"
       >
       </a><div
       class="
-        post-cover-right
+        post-cover right
       "
     ><img
           data-src="/images/live2d.png"
@@ -517,9 +507,6 @@ This article does not have a corresponding language version
           ><span class="icon-calendar"></span
           >2025-10-07</span
         ><span
-            ><span class="icon-calendar-plus"></span
-            >2025-10-07</span
-          ><span
           ><span class="icon-pencil"></span
           >15 words</span
         >
@@ -536,17 +523,18 @@ This article does not have a corresponding language version
 <div class="post-wrapper">
   <div
     class="
-      post-wrap-left
+      post-wrap left
     "
     data-aos="fade-up"
   ><a
         class="post-link"
         href="/2025/09/%E5%85%B3%E4%BA%8E%E7%9B%B8%E5%AF%B9%E8%AE%BA%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9/"
         aria-label="关于相对论的计算机辅助"
+        title="关于相对论的计算机辅助"
       >
       </a><div
       class="
-        post-cover-left
+        post-cover left
       "
     ><img
           data-src="/images/cover5.jpg"
@@ -560,9 +548,6 @@ This article does not have a corresponding language version
           ><span class="icon-calendar"></span
           >2025-09-13</span
         ><span
-            ><span class="icon-calendar-plus"></span
-            >2025-09-13</span
-          ><span
           ><span class="icon-pencil"></span
           >2 words</span
         >
@@ -579,17 +564,18 @@ This article does not have a corresponding language version
 <div class="post-wrapper">
   <div
     class="
-      post-wrap-right
+      post-wrap right
     "
     data-aos="fade-up"
   ><a
         class="post-link"
         href="/2025/09/%E5%85%B3%E4%BA%8E%E6%A1%8C%E9%9D%A2%E8%81%8A%E5%A4%A9%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0/"
         aria-label="关于桌面聊天系统的设计与实现"
+        title="关于桌面聊天系统的设计与实现"
       >
       </a><div
       class="
-        post-cover-right
+        post-cover right
       "
     ><img
           data-src="/images/cover1.jpg"
@@ -603,9 +589,6 @@ This article does not have a corresponding language version
           ><span class="icon-calendar"></span
           >2025-09-02</span
         ><span
-            ><span class="icon-calendar-plus"></span
-            >2025-09-02</span
-          ><span
           ><span class="icon-pencil"></span
           >19 words</span
         >
@@ -622,17 +605,18 @@ This article does not have a corresponding language version
 <div class="post-wrapper">
   <div
     class="
-      post-wrap-left
+      post-wrap left
     "
     data-aos="fade-up"
   ><a
         class="post-link"
         href="/2025/09/%E8%AE%BA%E8%99%9A%E6%8B%9F%E5%81%B6%E5%83%8F%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%AE%A1%E5%88%92%E6%9A%82%E5%81%9C/"
         aria-label="论虚拟偶像博客的计划(暂停)"
+        title="论虚拟偶像博客的计划(暂停)"
       >
       </a><div
       class="
-        post-cover-left
+        post-cover left
       "
     ><img
           data-src="/images/cover5.jpg"
@@ -646,9 +630,6 @@ This article does not have a corresponding language version
           ><span class="icon-calendar"></span
           >2025-09-01</span
         ><span
-            ><span class="icon-calendar-plus"></span
-            >2025-09-01</span
-          ><span
           ><span class="icon-pencil"></span
           >26 words</span
         >
@@ -665,17 +646,18 @@ This article does not have a corresponding language version
 <div class="post-wrapper">
   <div
     class="
-      post-wrap-right
+      post-wrap right
     "
     data-aos="fade-up"
   ><a
         class="post-link"
         href="/2025/08/my-second-post/"
         aria-label="My Second Post"
+        title="My Second Post"
       >
       </a><div
       class="
-        post-cover-right
+        post-cover right
       "
     ><img
           data-src="/images/cover2.jpg"
@@ -689,9 +671,6 @@ This article does not have a corresponding language version
           ><span class="icon-calendar"></span
           >2025-08-31</span
         ><span
-            ><span class="icon-calendar-plus"></span
-            >2025-08-31</span
-          ><span
           ><span class="icon-pencil"></span
           >11 words</span
         >
@@ -711,17 +690,18 @@ This article does not have a corresponding language version
 <div class="post-wrapper">
   <div
     class="
-      post-wrap-left
+      post-wrap left
     "
     data-aos="fade-up"
   ><a
         class="post-link"
         href="/2025/08/galgame%E8%AE%A1%E5%88%92/"
         aria-label="Galgame计划"
+        title="Galgame计划"
       >
       </a><div
       class="
-        post-cover-left
+        post-cover left
       "
     ><img
           data-src="/images/cover4.jpg"
@@ -735,9 +715,6 @@ This article does not have a corresponding language version
           ><span class="icon-calendar"></span
           >2025-08-31</span
         ><span
-            ><span class="icon-calendar-plus"></span
-            >2025-08-31</span
-          ><span
           ><span class="icon-pencil"></span
           >12 words</span
         >
@@ -755,17 +732,18 @@ This article does not have a corresponding language version
 <div class="post-wrapper">
   <div
     class="
-      post-wrap-right
+      post-wrap right
     "
     data-aos="fade-up"
   ><a
         class="post-link"
         href="/2025/08/my-first-post/"
         aria-label="My First Post"
+        title="My First Post"
       >
       </a><div
       class="
-        post-cover-right
+        post-cover right
       "
     ><img
           data-src="/images/fly.gif"
@@ -779,9 +757,6 @@ This article does not have a corresponding language version
           ><span class="icon-calendar"></span
           >2025-08-31</span
         ><span
-            ><span class="icon-calendar-plus"></span
-            >2025-08-31</span
-          ><span
           ><span class="icon-pencil"></span
           >8 words</span
         >
@@ -800,17 +775,18 @@ The door to ACG ## 请注意**EVA**的活动！！！</article>
 <div class="post-wrapper">
   <div
     class="
-      post-wrap-left
+      post-wrap left
     "
     data-aos="fade-up"
   ><a
         class="post-link"
         href="/2023/03/%E6%88%91%E7%AC%AC%E4%B8%89%E4%B8%AA%E5%B8%96%E5%AD%90/"
         aria-label="我第三个帖子"
+        title="我第三个帖子"
       >
       </a><div
       class="
-        post-cover-left
+        post-cover left
       "
     ><img
           data-src="/images/cover3.jpg"
@@ -824,9 +800,6 @@ The door to ACG ## 请注意**EVA**的活动！！！</article>
           ><span class="icon-calendar"></span
           >2023-03-15</span
         ><span
-            ><span class="icon-calendar-plus"></span
-            >2023-03-15</span
-          ><span
           ><span class="icon-pencil"></span
           >2 words</span
         >
@@ -840,23 +813,25 @@ The door to ACG ## 请注意**EVA**的活动！！！</article>
     </div>
   </div>
 </div>
-<nav id="page-nav" data-aos="fade-up"><span class="page-number current">1</span></nav>
+<nav id="page-nav" aria-label="Pagination navigation" data-aos="fade-up"><span class="page-number current">1</span></nav>
 </section>
-        </div><footer id="footer">
+        </div><footer id="footer" aria-label="Site footer">
   <div style="width: 100%; overflow: hidden">
     <div class="footer-line"></div>
   </div>
   <div id="footer-info"><div>
-      <span class="icon-copyright"></span>2024-2025<span class="footer-info-sep rotate"></span>
-      Home
+      <span class="icon-copyright"></span>2020-2025<span class="footer-info-sep rotate"></span>
+      home
     </div><div>
         Powered by&nbsp;<a
           href="https://gohugo.io/"
           target="_blank"
+          rel="noopener nofollow noreferrer"
           >Hugo</a
         >&nbsp; Theme.<a
           href="https://github.com/D-Sketon/hugo-theme-reimu"
           target="_blank"
+          rel="noopener nofollow noreferrer"
           >Reimu</a
         >
       </div><div>
@@ -865,10 +840,6 @@ The door to ACG ## 请注意**EVA**的活动！！！</article>
         >
         &nbsp;|&nbsp;
         <span class="icon-coffee">&nbsp;00:09</span>
-      </div><div class="footer-beian">
-        <a target="_blank" rel="noopener" href="https://beian.miit.gov.cn"
-          >豫ICP备2025147175号</a
-        >
       </div><div>
         <span class="icon-eye"></span>
         <span id="busuanzi_container_site_pv"
@@ -884,20 +855,72 @@ The door to ACG ## 请注意**EVA**的活动！！！</article>
           ></span
         ></span>
       </div></div>
+
+<div id="aplayer"></div>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const ap = new APlayer({
+    container: document.getElementById('aplayer'),
+    fixed: true,       
+    autoplay: true,   
+    loop: 'all',       
+    order: 'list',     
+    preload: 'auto',   
+    volume: 0.7,       
+    mutex: true,       
+    listFolded: false, 
+    audio: [
+      {
+        name: 'a.background',         
+        artist: 'ACG',                
+        url: '/audios/a.mp3',         
+        cover: '/images/avatar.jpg'    
+      },{
+        name: 'b.background',         
+        artist: 'ACG',                
+        url: '/audios/b.mp3',         
+        cover: '/images/avatar.jpg'    
+      },{
+        name: 'c.background',         
+        artist: 'ACG',                
+        url: '/audios/c.mp3',         
+        cover: '/images/avatar.jpg'    
+      },{
+        name: 'd.background',         
+        artist: 'ACG',                
+        url: '/audios/d.mp3',         
+        cover: '/images/avatar.jpg'    
+      },{
+        name: 'e.background',         
+        artist: 'ACG',                
+        url: '/audios/e.mp3',         
+        cover: '/images/avatar.jpg'    
+      }
+    ]
+  });
+});
+</script>
+
+
 </footer>
 <div class="sidebar-top">
             <div class="sidebar-top-taichi rotate"></div>
             <div class="arrow-up"></div>
           </div><div id="mask" class="hide"></div>
-      </div><nav id="mobile-nav">
+      </div><nav id="mobile-nav" aria-label="Mobile navigation">
   <div class="sidebar-wrap"><div class="sidebar-author">
   <img
     data-src="/avatar/avatar.webp"
     data-sizes="auto"
-    alt="Home"
+    alt="home"
     class="lazyload"
   />
-  <div class="sidebar-author-name">Home</div>
+  <div class="sidebar-author-name">home</div>
   <div class="sidebar-description">少女祈祷中...</div>
 </div>
 <div class="sidebar-state">
@@ -954,7 +977,7 @@ The door to ACG ## 请注意**EVA**的活动！！！</article>
         <div class="reimu-popup popup">
           <div class="reimu-search">
             <div class="reimu-search-input-icon"></div>
-            <div class="reimu-search-input" id="reimu-search-input"></div>
+            <div id="reimu-search-input"></div>
             <div class="popup-btn-close"></div>
           </div>
           <div class="reimu-results">
@@ -986,8 +1009,8 @@ The door to ACG ## 请注意**EVA**的活动！！！</article>
     var ALGOLIA_CONFIG = {
       logo: '\/images\/algolia_logo.svg',
       algolia: {
-        applicationID: "NXNLWE1YN4",
-        apiKey: "07075e3792da214773fcc02f7fb08aa0",
+        applicationID: "UNCF6INSZF",
+        apiKey: "54c79aa617a28481e040d16531d81e41",
         indexName: "aablog",
         hits: {
           "per_page": parseInt("10")
@@ -1014,149 +1037,14 @@ The door to ACG ## 请注意**EVA**的活动！！！</article>
   }
 </script><script
     src="https://npm.webcache.cn/theme-shokax-pjax@0.0.3/dist/index.umd.js"
-    integrity="sha384-xneY1WY8hOfUzswrE4CrYq35N4BdVcxqxwHPr9zawE/jMSCxD&#43;jAPU55x/jj3wlf" crossorigin="anonymous"></script><script>
-    function loadScripts(scripts, index) {
-      if (index < scripts.length) {
-        const script = scripts[index];
-        const src = script.getAttribute('src');
-
-        const loadScript = (scriptContent) => {
-          return new Promise((resolve, reject) => {
-            const scriptElement = document.createElement('script');
-            if (script.type) {
-              scriptElement.type = script.type;
-            }
-            if (script.src) {
-              scriptElement.src = script.src;
-              if (script.integrity) {
-                scriptElement.integrity = script.integrity;
-              }
-              if (script.crossOrigin) {
-                scriptElement.crossOrigin = script.crossOrigin;
-              }
-              scriptElement.onload = resolve;
-              scriptElement.onerror = reject;
-            }
-            if (scriptContent) {
-              scriptElement.text = scriptContent;
-            }
-            document.head.appendChild(scriptElement);
-            if (!script.src) {
-              resolve();
-            }
-          })
-          
-        }
-
-        ;(src ? loadScript() : loadScript(script.text))
-          .then(() => loadScripts(scripts, index + 1))
-          .catch(error => {
-            console.error(`Failed to load script: ${src || 'inline script'}`, error);
-            loadScripts(scripts, index + 1);
-          });
-      }
-    }
-    if (window.Pjax) {
-      Pjax.prototype.getElements = function() {
-        const i18nLanguages = window.siteConfig.i18n_languages;
-        const baseUrl = window.siteConfig.base;
-        let basePathname = new URL(baseUrl).pathname;
-        if (!basePathname.endsWith('/')) {
-          basePathname += '/';  
-        }
-        const currentUrl = window.location.href;
-        const currentPathname = new URL(currentUrl).pathname.replace(basePathname, '');
-        const aLinks = document.querySelectorAll('a[href]');
-        const pjaxLinks = [];
-        for(let i = 0; i < aLinks.length; i++) {
-          const aLink = aLinks[i];
-          const aLinkHref = aLink.getAttribute('href');
-          const isExternal = aLink.getAttribute('target') === '_blank' || aLink.getAttribute('rel')?.includes('noopener');
-          if (isExternal || aLinkHref.startsWith('mailto:') || aLinkHref.startsWith('tel:') || aLinkHref.startsWith('javascript:') || aLinkHref.startsWith("data:") || aLinkHref.startsWith("vbscript:")) {
-            continue;
-          }
-          if (!i18nLanguages) {
-            
-            pjaxLinks.push(aLink);
-            continue;
-          }
-          const absoluteUrl = new URL(aLinkHref, currentUrl).href;
-          const absolutePathname = new URL(absoluteUrl).pathname.replace(basePathname, '');
-          if (!absolutePathname || !currentPathname) {
-            pjaxLinks.push(aLink);
-            continue;
-          }
-          const currentLangIndex = i18nLanguages.findIndex(lang => currentPathname.startsWith(lang.Lang));
-          if (currentLangIndex > -1) {
-            
-            const absoluteLangIndex = i18nLanguages.findIndex(lang => absolutePathname.startsWith(lang.Lang));
-            if (absoluteLangIndex === currentLangIndex) {
-              
-              pjaxLinks.push(aLink);
-            }
-          } else {
-            
-            const absoluteLangIndex = i18nLanguages.findIndex(lang => absolutePathname.startsWith(lang.Lang));
-            if (absoluteLangIndex === -1) {
-              
-              pjaxLinks.push(aLink);
-            }
-          }
-        }
-        return pjaxLinks;
-      }
-    }
-    window.Pjax &&
-      new window.Pjax({
-        selectors: [
-          "#header>img",
-          "#header>picture",
-          "head title",
-          "#header-title",
-          "#subtitle-wrap",
-          "#main",
-          "#content",
-          ".sidebar-widget",
-          ".sidebar-wrapper",
-          ".sidebar-wrapper-container",
-          "#mobile-nav",
-          "#lazy-script",
-          '#i18n-nav'
-        ],
-        switches: {
-          ".sidebar-wrapper-container": function(oldEl, newEl) {
-            oldEl.className = newEl.className;
-            this.onSwitch();
-          },
-          "#content": function(oldEl, newEl) {
-            
-            oldEl.className = newEl.className;
-            this.onSwitch();
-          },
-          "#header-title": Pjax.switches.outerHTML,
-          "#subtitle-wrap": Pjax.switches.outerHTML,
-          "#main": function (oldEl, newEl) {
-            const scripts = [...newEl.querySelectorAll("script")];
-            loadScripts(scripts, 0);
-            oldEl.outerHTML = newEl.outerHTML;
-            this.onSwitch();
-          },
-          "#mobile-nav": Pjax.switches.outerHTML,
-          "#lazy-script": function (oldEl, newEl) {
-            const scripts = [...newEl.querySelectorAll("script")];
-            loadScripts(scripts, 0);
-            oldEl.innerHTML = newEl.innerHTML;
-            this.onSwitch();
-          },
-        },
-        cacheBust: false,
-      });
-  </script><script src="/js/pjax.js" integrity="" crossorigin="anonymous" ></script>
+    integrity="sha384-xneY1WY8hOfUzswrE4CrYq35N4BdVcxqxwHPr9zawE/jMSCxD&#43;jAPU55x/jj3wlf" crossorigin="anonymous"></script><script src="/js/pjax.js" integrity="" crossorigin="anonymous" ></script><script
+    src="https://npm.webcache.cn/live2d-widgets@0.9.0/autoload.js"
+    deferintegrity="sha384-poTN7wN/SqNhQqo3jdFeX20ikddWeFGkUkDEzsKjgH/ez8aQLn81oI0Cw6q5xNyB" crossorigin="anonymous"></script>
 
 <div id="lazy-script">
   <div><script data-pjax>
         window.REIMU_POST = {
-          author: "Home",
+          author: "home",
           title: "NeonNotes Journal",
           url: "https:\/\/jsfsfkjsfksff.github.io\/",
           description: "",
@@ -1191,14 +1079,13 @@ The door to ACG ## 请注意**EVA**的活动！！！</article>
 </script><script
     src="https://npm.webcache.cn/aplayer@1.10.1/dist/APlayer.min.js"
     integrity="sha384-gdGYZwHnfJM54evoZhpO0s6ZF5BQiybkiyW7VXr&#43;h5UfruuRL/aORyw&#43;5&#43;HZoU6e" crossorigin="anonymous"></script><script>
-      var isMobile = window.matchMedia('(max-width: 959px)').matches;
-      if (isMobile) {
+      if (window.matchMedia('(max-width: 959px)').matches) {
       const aplayer = _$('#aplayer');
         if (aplayer) {
-          const aside = aplayer.parentNode;
+          const aside = aplayer.parentNode?.parentNode;
           if (aside?.tagName === 'ASIDE') {
             aplayer.removeAttribute('data-aos');
-            aside.removeChild(aplayer);
+            aside.parentNode.removeChild(aplayer);
             document.body.appendChild(aplayer);
           }
         }
@@ -1206,7 +1093,7 @@ The door to ACG ## 请注意**EVA**的活动！！！</article>
       const ap = new APlayer({
           theme: "var(--color-link)",
           container: document.getElementById('aplayer'),
-          audio: JSON.parse("[{\"artist\":\"ACG\",\"name\":\"background.a\",\"url\":\"/audios/a.mp3\"},{\"artist\":\"ACG\",\"name\":\"background.b\",\"url\":\"/audios/b.mp3\"},{\"artist\":\"ACG\",\"name\":\"background.c\",\"url\":\"/audios/c.mp3\"},{\"artist\":\"ACG\",\"name\":\"background.d\",\"url\":\"/audios/d.mp3\"},{\"artist\":\"ACG\",\"name\":\"background.e\",\"url\":\"/audios/e.mp3\"}]") || [],
+          audio: JSON.parse("null") || [],
           fixed: isMobile ? true : ( true  || false),
           autoplay:  true  || false,
           loop: 'all' || 'all',

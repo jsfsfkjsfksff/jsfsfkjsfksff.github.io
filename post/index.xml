@@ -7,8 +7,8 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     
-    <managingEditor>3824492861@qq.com (Home)</managingEditor>
-    <webMaster>3824492861@qq.com (Home)</webMaster>
+    <managingEditor>3824492861@qq.com (home)</managingEditor>
+    <webMaster>3824492861@qq.com (home)</webMaster>
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
@@ -25,10 +25,10 @@
       <title>live2d的应用</title>
       <link>https://jsfsfkjsfksff.github.io/2025/10/live2d%E7%9A%84%E5%BA%94%E7%94%A8/</link>
       <pubDate>Tue, 07 Oct 2025 18:00:00 &#43;0800</pubDate>
-      <author>3824492861@qq.com (Home)</author>
+      <author>3824492861@qq.com (home)</author>
       <guid>https://jsfsfkjsfksff.github.io/2025/10/live2d%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
       <description>
-        <![CDATA[<h1>live2d的应用</h1><p>Author: Home(3824492861@qq.com)</p>
+        <![CDATA[<h1>live2d的应用</h1><p>Author: home(3824492861@qq.com)</p>
         
           <p>// 给 embed 添加居中样式</p>
 <style>.pdf-center {
@@ -72,10 +72,10 @@ height="400">
       <title>hello debug</title>
       <link>https://jsfsfkjsfksff.github.io/2025/10/hello-debug/</link>
       <pubDate>Tue, 07 Oct 2025 18:00:00 &#43;0800</pubDate>
-      <author>3824492861@qq.com (Home)</author>
+      <author>3824492861@qq.com (home)</author>
       <guid>https://jsfsfkjsfksff.github.io/2025/10/hello-debug/</guid>
       <description>
-        <![CDATA[<h1>hello debug</h1><p>Author: Home(3824492861@qq.com)</p>
+        <![CDATA[<h1>hello debug</h1><p>Author: home(3824492861@qq.com)</p>
         
           <h1 id="hello-debug">
 <a class="header-anchor" href="#hello-debug"></a>
@@ -96,34 +96,13 @@ search in website
     
 
     <item>
-      <title>关于相对论的计算机辅助</title>
-      <link>https://jsfsfkjsfksff.github.io/2025/09/%E5%85%B3%E4%BA%8E%E7%9B%B8%E5%AF%B9%E8%AE%BA%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9/</link>
-      <pubDate>Sat, 13 Sep 2025 23:50:30 &#43;0800</pubDate>
-      <author>3824492861@qq.com (Home)</author>
-      <guid>https://jsfsfkjsfksff.github.io/2025/09/%E5%85%B3%E4%BA%8E%E7%9B%B8%E5%AF%B9%E8%AE%BA%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9/</guid>
-      <description>
-        <![CDATA[<h1>关于相对论的计算机辅助</h1><p>Author: Home(3824492861@qq.com)</p>
-        
-          <h1 id="前瞻">
-<a class="header-anchor" href="#%e5%89%8d%e7%9e%bb"></a>
-前瞻
-</h1><p>本贴会辅助计算机开源引擎来实现基础的狭义相对论的学习。</p>
-        
-        <hr><p>Published on 2025-09-13 at <a href='https://jsfsfkjsfksff.github.io/'>NeonNotes Journal</a>, last modified on 2025-09-13</p>]]>
-      </description>
-      
-    </item>
-    
-    
-
-    <item>
       <title>关于桌面聊天系统的设计与实现</title>
       <link>https://jsfsfkjsfksff.github.io/2025/09/%E5%85%B3%E4%BA%8E%E6%A1%8C%E9%9D%A2%E8%81%8A%E5%A4%A9%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0/</link>
       <pubDate>Tue, 02 Sep 2025 22:30:30 &#43;0800</pubDate>
-      <author>3824492861@qq.com (Home)</author>
+      <author>3824492861@qq.com (home)</author>
       <guid>https://jsfsfkjsfksff.github.io/2025/09/%E5%85%B3%E4%BA%8E%E6%A1%8C%E9%9D%A2%E8%81%8A%E5%A4%A9%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0/</guid>
       <description>
-        <![CDATA[<h1>关于桌面聊天系统的设计与实现</h1><p>Author: Home(3824492861@qq.com)</p>
+        <![CDATA[<h1>关于桌面聊天系统的设计与实现</h1><p>Author: home(3824492861@qq.com)</p>
         
           <h1 id="提出一个关于实时对话的模拟关系的聊天系统">
 <a class="header-anchor" href="#%e6%8f%90%e5%87%ba%e4%b8%80%e4%b8%aa%e5%85%b3%e4%ba%8e%e5%ae%9e%e6%97%b6%e5%af%b9%e8%af%9d%e7%9a%84%e6%a8%a1%e6%8b%9f%e5%85%b3%e7%b3%bb%e7%9a%84%e8%81%8a%e5%a4%a9%e7%b3%bb%e7%bb%9f"></a>
@@ -158,7 +137,28 @@ search in website
 <img src = "/images/idea1.jpg" alt = "idea1" width = 300></li>
 </ul>
         
-        <hr><p>Published on 2025-09-02 at <a href='https://jsfsfkjsfksff.github.io/'>NeonNotes Journal</a>, last modified on 2025-09-02</p>]]>
+        <hr><p>Published on 2025-09-02 at <a href='https://jsfsfkjsfksff.github.io/'>NeonNotes Journal</a>, last modified on 2025-09-18</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>关于相对论的计算机辅助</title>
+      <link>https://jsfsfkjsfksff.github.io/2025/09/%E5%85%B3%E4%BA%8E%E7%9B%B8%E5%AF%B9%E8%AE%BA%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9/</link>
+      <pubDate>Sat, 13 Sep 2025 23:50:30 &#43;0800</pubDate>
+      <author>3824492861@qq.com (home)</author>
+      <guid>https://jsfsfkjsfksff.github.io/2025/09/%E5%85%B3%E4%BA%8E%E7%9B%B8%E5%AF%B9%E8%AE%BA%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9/</guid>
+      <description>
+        <![CDATA[<h1>关于相对论的计算机辅助</h1><p>Author: home(3824492861@qq.com)</p>
+        
+          <h1 id="前瞻">
+<a class="header-anchor" href="#%e5%89%8d%e7%9e%bb"></a>
+前瞻
+</h1><p>本贴会辅助计算机开源引擎来实现基础的狭义相对论的学习。</p>
+        
+        <hr><p>Published on 2025-09-13 at <a href='https://jsfsfkjsfksff.github.io/'>NeonNotes Journal</a>, last modified on 2025-09-13</p>]]>
       </description>
       
     </item>
@@ -169,10 +169,10 @@ search in website
       <title>论虚拟偶像博客的计划(暂停)</title>
       <link>https://jsfsfkjsfksff.github.io/2025/09/%E8%AE%BA%E8%99%9A%E6%8B%9F%E5%81%B6%E5%83%8F%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%AE%A1%E5%88%92%E6%9A%82%E5%81%9C/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 &#43;0000</pubDate>
-      <author>3824492861@qq.com (Home)</author>
+      <author>3824492861@qq.com (home)</author>
       <guid>https://jsfsfkjsfksff.github.io/2025/09/%E8%AE%BA%E8%99%9A%E6%8B%9F%E5%81%B6%E5%83%8F%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%AE%A1%E5%88%92%E6%9A%82%E5%81%9C/</guid>
       <description>
-        <![CDATA[<h1>论虚拟偶像博客的计划(暂停)</h1><p>Author: Home(3824492861@qq.com)</p>
+        <![CDATA[<h1>论虚拟偶像博客的计划(暂停)</h1><p>Author: home(3824492861@qq.com)</p>
         
           <h1 id="虚拟偶像博客的计划的意义">
 <a class="header-anchor" href="#%e8%99%9a%e6%8b%9f%e5%81%b6%e5%83%8f%e5%8d%9a%e5%ae%a2%e7%9a%84%e8%ae%a1%e5%88%92%e7%9a%84%e6%84%8f%e4%b9%89"></a>
@@ -234,10 +234,10 @@ AI与番剧
       <title>My Second Post</title>
       <link>https://jsfsfkjsfksff.github.io/2025/08/my-second-post/</link>
       <pubDate>Sun, 31 Aug 2025 15:39:38 &#43;0800</pubDate>
-      <author>3824492861@qq.com (Home)</author>
+      <author>3824492861@qq.com (home)</author>
       <guid>https://jsfsfkjsfksff.github.io/2025/08/my-second-post/</guid>
       <description>
-        <![CDATA[<h1>My Second Post</h1><p>Author: Home(3824492861@qq.com)</p>
+        <![CDATA[<h1>My Second Post</h1><p>Author: home(3824492861@qq.com)</p>
         
           <h1 id="welcome-to-our-club">
 <a class="header-anchor" href="#welcome-to-our-club"></a>
@@ -263,10 +263,10 @@ Welcome to our club!
       <title>My First Post</title>
       <link>https://jsfsfkjsfksff.github.io/2025/08/my-first-post/</link>
       <pubDate>Sun, 31 Aug 2025 15:27:12 &#43;0800</pubDate>
-      <author>3824492861@qq.com (Home)</author>
+      <author>3824492861@qq.com (home)</author>
       <guid>https://jsfsfkjsfksff.github.io/2025/08/my-first-post/</guid>
       <description>
-        <![CDATA[<h1>My First Post</h1><p>Author: Home(3824492861@qq.com)</p>
+        <![CDATA[<h1>My First Post</h1><p>Author: home(3824492861@qq.com)</p>
         
           <p>#简介</p>
 <p>这是**粗体**文本，这是*斜体*文本。</p>
@@ -285,10 +285,10 @@ The door to ACG</a>
       <title>Galgame计划</title>
       <link>https://jsfsfkjsfksff.github.io/2025/08/galgame%E8%AE%A1%E5%88%92/</link>
       <pubDate>Sun, 31 Aug 2025 15:27:12 &#43;0800</pubDate>
-      <author>3824492861@qq.com (Home)</author>
+      <author>3824492861@qq.com (home)</author>
       <guid>https://jsfsfkjsfksff.github.io/2025/08/galgame%E8%AE%A1%E5%88%92/</guid>
       <description>
-        <![CDATA[<h1>Galgame计划</h1><p>Author: Home(3824492861@qq.com)</p>
+        <![CDATA[<h1>Galgame计划</h1><p>Author: home(3824492861@qq.com)</p>
         
           <h1 id="计划">
 <a class="header-anchor" href="#%e8%ae%a1%e5%88%92"></a>
@@ -327,10 +327,10 @@ Pixiv爬取</a>
       <title>我第三个帖子</title>
       <link>https://jsfsfkjsfksff.github.io/2023/03/%E6%88%91%E7%AC%AC%E4%B8%89%E4%B8%AA%E5%B8%96%E5%AD%90/</link>
       <pubDate>Wed, 15 Mar 2023 00:00:00 &#43;0000</pubDate>
-      <author>3824492861@qq.com (Home)</author>
+      <author>3824492861@qq.com (home)</author>
       <guid>https://jsfsfkjsfksff.github.io/2023/03/%E6%88%91%E7%AC%AC%E4%B8%89%E4%B8%AA%E5%B8%96%E5%AD%90/</guid>
       <description>
-        <![CDATA[<h1>我第三个帖子</h1><p>Author: Home(3824492861@qq.com)</p>
+        <![CDATA[<h1>我第三个帖子</h1><p>Author: home(3824492861@qq.com)</p>
         
           <p>#我第三个帖子
 <img src="/images/bit.png" alt="galgame" width = 300>

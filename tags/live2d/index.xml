@@ -7,8 +7,8 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     
-    <managingEditor>3824492861@qq.com (Home)</managingEditor>
-    <webMaster>3824492861@qq.com (Home)</webMaster>
+    <managingEditor>3824492861@qq.com (home)</managingEditor>
+    <webMaster>3824492861@qq.com (home)</webMaster>
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
@@ -25,10 +25,10 @@
       <title>live2d的应用</title>
       <link>https://jsfsfkjsfksff.github.io/2025/10/live2d%E7%9A%84%E5%BA%94%E7%94%A8/</link>
       <pubDate>Tue, 07 Oct 2025 18:00:00 &#43;0800</pubDate>
-      <author>3824492861@qq.com (Home)</author>
+      <author>3824492861@qq.com (home)</author>
       <guid>https://jsfsfkjsfksff.github.io/2025/10/live2d%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
       <description>
-        <![CDATA[<h1>live2d的应用</h1><p>Author: Home(3824492861@qq.com)</p>
+        <![CDATA[<h1>live2d的应用</h1><p>Author: home(3824492861@qq.com)</p>
         
           <p>// 给 embed 添加居中样式</p>
 <style>.pdf-center {

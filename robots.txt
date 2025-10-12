@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://jsfsfkjsfksff.github.io/jsfsfkjsfksff.github.io/sitemap.xml
+# Algolia-Crawler-Verif: 8B47078EA6F12324
